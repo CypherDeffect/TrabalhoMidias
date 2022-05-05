@@ -1,0 +1,147 @@
+body {
+    background-color: #b14949;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 0px auto;
+    max-width: 1000px;
+
+}
+
+p {
+    color: rgb(255, 217, 0);
+    text-align: center;
+}
+
+header {
+    background-color: #f0cc00;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+header h2 {
+    margin: 0px;
+}
+
+header h1 {
+    font-size: 72px;
+}
+
+h1 {
+    font-size: 72px;
+    margin: 0px;
+}
+
+h6 {
+    font-size: 10px;
+    margin: 0px;
+    text-align: left;
+    color: #e7f431;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 0px;
+    text-align: center;
+    color: #F47D31;
+}
+
+h5 {
+    font-size: 20px;
+    margin: 0px;
+    text-align: center;
+    color: #b14949
+}
+
+nav {
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+nav a:link,
+nav a:visited {
+    display: block;
+    border-bottom: 3px solid #FFF;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+}
+
+nav a:hover {
+    color: white;
+    Background-color: #f47d31;
+    text-decoration: underline;
+}
+
+nav h3 {
+    margin: 6px;
+    color: white;
+}
+
+#container {
+    background-color: #888;
+}
+
+selection {
+    display: block;
+    width: 50px;
+    float: left;
+
+}
+
+article {
+    background-color: #eee;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 20px #888;
+    -moz-box-shadow: 2px 2px 20px #888;
+    /* -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg) */
+}
+
+article header {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+article footer {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+article h1 {
+    font-size: 18px;
+}
+
+adide h3 {
+    margin: 15px;
+    color: white;
+}
+
+aside p {
+    margin: 15px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer {
+    clear: both;
+    display: block;
+    background-color: #f47d31;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+}
+
+footer h2 {
+    color: white;
+}
